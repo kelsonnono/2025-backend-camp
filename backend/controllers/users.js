@@ -6,6 +6,7 @@ const { dataSource } = require('../db/data-source')
 const logger = require('../utils/logger')('UsersController')
 const generateJWT = require('../utils/generateJWT')
 
+
 const passwordPattern = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,16}/
 
 function isUndefined (value) {
